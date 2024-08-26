@@ -153,6 +153,10 @@ interface Social {
   youtube?: string;
 
   /**
+   * Discord
+   */
+  discord?: string;
+  /**
    * Udemy
    */
   udemy?: string;

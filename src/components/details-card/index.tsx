@@ -9,6 +9,7 @@ import {
   FaBehanceSquare,
   FaBuilding,
   FaDev,
+  FaDiscord,
   FaFacebook,
   FaGlobe,
   FaLinkedin,
@@ -288,6 +289,13 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   title="YouTube:"
                   value={`@${social.youtube}`}
                   link={`https://www.youtube.com/@${social.youtube}`}
+                />
+              )}
+                {social?.discord && (
+                <ListItem
+                  icon={<FaDiscord />}
+                  title="Discord:"
+                  value={`${social.discord}`}
                 />
               )}
               {social?.udemy && (
