@@ -64,9 +64,12 @@ const CONFIG = {
     'Github',
     'Git',
     'Docker',
-    'CSS',
-    'Java',
-    'Tailwind',
+    'Vercel',
+    'Linux',
+    'Discord Bots',
+    'Bun',
+    'TypeScript',
+    'Ubuntu'
   ],
   // Display articles from your medium or dev account. (Optional)
   googleAnalytics: {
