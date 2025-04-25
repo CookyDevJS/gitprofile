@@ -55,8 +55,10 @@ const CONFIG = {
     phone: '',
     email: 'cookymail@cookydev.es',
     discord: 'srcooky',
+    soundcloud: 'CookyDJ'
   },
   skills: [
+    'Bun',
     'JavaScript',
     'React.js',
     'Node.js',
@@ -148,7 +150,11 @@ const CONFIG = {
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and CookyDev`,
+    >GitProfile</a>. Modified by <a 
+      class="text-primary" href="https://github.com/CookyDevJS"
+      target="_blank"
+      rel="noreferrer"
+    >CookyDev</a>`,
 
   enablePWA: true,
 };
