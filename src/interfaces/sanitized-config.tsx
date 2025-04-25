@@ -64,6 +64,7 @@ export interface SanitizedSocial {
   phone?: string;
   email?: string;
   discord?: string;
+  soundcloud?: string;
 }
 
 export interface SanitizedResume {
