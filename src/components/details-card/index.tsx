@@ -16,6 +16,7 @@ import {
   FaMastodon,
   FaReddit,
   FaSkype,
+  FaSoundcloud,
   FaStackOverflow,
   FaTelegram,
   FaYoutube,
@@ -296,6 +297,14 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   icon={<FaDiscord />}
                   title="Discord:"
                   value={`${social.discord}`}
+                />
+              )}
+               {social?.soundcloud && (
+                <ListItem
+                  icon={<FaSoundcloud />}
+                  title="SoundCloud:"
+                  value={`${social.soundcloud}`}
+                  link={`https://soundcloud.com/${social.soundcloud}`}
                 />
               )}
               {social?.udemy && (
