@@ -82,6 +82,7 @@ export const getSanitizedConfig = (
         telegram: config?.social?.telegram,
         researchGate: config?.social?.researchGate,
         discord: config?.social?.discord,
+        soundcloud: config?.social?.soundcloud,
       },
       resume: {
         fileUrl: config?.resume?.fileUrl || '',
