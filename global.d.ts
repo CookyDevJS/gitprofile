@@ -157,6 +157,11 @@ interface Social {
    */
   discord?: string;
   /**
+   *   /**
+   * Soundcloud
+   */
+  soundcloud?: string;
+  /**
    * Udemy
    */
   udemy?: string;
